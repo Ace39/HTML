@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <form>
+     <h1>Payment Form </h1>
+     <h2>Contact Informatin</h2>
+     <p>Name: <input type="text" name="name"></p><!--name attribute is necessary-->
+     <fieldset>
+        <legend>Gender</legend>
+     <p>
+        MALE <input type="radio" name="Gender">
+        Female<input type="radio" name="Gender">
+     </p>
+    </fieldset>
+    <p>
+        Address:<textarea name="address" cols="100" rows="5" placeholder="Type your address here"></textarea>
+    </p>
+    <p>Email:<input type="e-mail" name="'e-mial"></p>
+    <p>Pin-Code<input type="number" name="pin-code"></p>
+    <h1>Payment Information</h1>
+    <p>Card Types:
+    <select name="card-type">
+<option value="">--Select a Card type--</option>
+<option value="visa">Visa</option>
+<option value="rupay">rupay</option>
+<option value="Mastercard">MasterCard</option>
+</select>
+</p>
+<p>
+    Card Number: <input type="number" name="Card Number">
+</p>
+<p>
+    Expiration Date: <input type="date" name="exp-date">
+</p>
+<p>
+    CVV:<input type="password" name="CVV">
+</p>
+<input type="Submit" value="submit">
+    </form>
+</body>
+</html>
